@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+thead tr th{
+    border: 1px solid ;
+    padding: 10px 20px;
+}
+
+.btn{
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+}
